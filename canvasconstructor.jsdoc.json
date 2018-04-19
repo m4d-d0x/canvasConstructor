@@ -6543,10 +6543,10 @@
     "description": "A ES6 class for node-canvas with built-in functions and chained methods.",
     "devDependencies": {
       "docma": "^1.5.3",
-      "eslint": "^4.13.1",
+      "eslint": "^4.19.1",
       "fs-nextra": "^0.3.2",
-      "tslint": "^5.8.0",
-      "typescript": "^2.6.2"
+      "tslint": "^5.9.1",
+      "typescript": "^2.8.1"
     },
     "files": [
       "/home/travis/build/kyranet/canvasConstructor/src/canvas.js",
@@ -6568,7 +6568,7 @@
       "type": "git",
       "url": "git+https://github.com/kyranet/canvasConstructor.git"
     },
-    "version": "0.4.0",
+    "version": "1.0.0",
     "$longname": "package:canvas-constructor"
   },
   {
