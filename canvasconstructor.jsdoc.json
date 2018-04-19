@@ -6568,7 +6568,7 @@
       "type": "git",
       "url": "git+https://github.com/kyranet/canvasConstructor.git"
     },
-    "version": "1.0.0",
+    "version": "1.0.1",
     "$longname": "package:canvas-constructor"
   },
   {
