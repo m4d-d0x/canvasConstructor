@@ -11,7 +11,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002828",
+        "id": "astnode100002826",
         "name": "exports.blur",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -68,7 +68,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002729",
+        "id": "astnode100002727",
         "name": "exports.brightness",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -180,15 +180,15 @@
         "comment": "/**\n     * Register a new font (Canvas 2.x).\n     * @param {string} path   The path for the font.\n     * @param {string} family The font's family name.\n     * @returns {CanvasConstructor}\n     */",
         "meta": {
           "range": [
-            51831,
-            52112
+            51835,
+            52116
           ],
           "filename": "canvas.js",
           "lineno": 1260,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002185",
+            "id": "astnode100002183",
             "name": "CanvasConstructor.registerFont",
             "type": "MethodDefinition",
             "paramnames": [
@@ -1219,15 +1219,15 @@
         "comment": "/**\n     * Register a new font (Canvas 1.6.x).\n     * @param {string} path   The path for the font.\n     * @param {string} family The font's family name.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            51429,
-            51625
+            51433,
+            51629
           ],
           "filename": "canvas.js",
           "lineno": 1248,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002155",
+            "id": "astnode100002153",
             "name": "CanvasConstructor#addTextFont",
             "type": "MethodDefinition",
             "paramnames": [
@@ -3955,15 +3955,15 @@
         "comment": "/**\n     * Process data with this as the context\n     * @param {Function} fn A callback function\n     * @returns {this}\n     */",
         "meta": {
           "range": [
-            52535,
-            52604
+            52539,
+            52608
           ],
           "filename": "canvas.js",
           "lineno": 1285,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002228",
+            "id": "astnode100002226",
             "name": "CanvasConstructor#process",
             "type": "MethodDefinition",
             "paramnames": [
@@ -5975,11 +5975,11 @@
         "$longname": "CanvasConstructor#stroke"
       },
       {
-        "comment": "/**\n     * Render the canvas into a buffer.\n     * @param {any[]} args The render's options.\n     * @returns {Buffer}\n     */",
+        "comment": "/**\n     * Render the canvas into a buffer.\n     * @param {Object} options The render's options.\n     * @returns {Buffer}\n     */",
         "meta": {
           "range": [
-            49871,
-            49942
+            49875,
+            49946
           ],
           "filename": "canvas.js",
           "lineno": 1199,
@@ -5990,7 +5990,7 @@
             "name": "CanvasConstructor#toBuffer",
             "type": "MethodDefinition",
             "paramnames": [
-              "args"
+              "options"
             ]
           },
           "vars": {
@@ -6002,12 +6002,11 @@
           {
             "type": {
               "names": [
-                "Array.<any>"
+                "Object"
               ]
             },
             "description": "The render's options.",
-            "name": "args",
-            "variable": true
+            "name": "options"
           }
         ],
         "returns": [
@@ -6030,15 +6029,15 @@
         "comment": "/**\n     * Render the canvas into a buffer using a Promise.\n     * @returns {Promise<Buffer>}\n     */",
         "meta": {
           "range": [
-            50054,
-            50240
+            50058,
+            50244
           ],
           "filename": "canvas.js",
           "lineno": 1207,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002070",
+            "id": "astnode100002068",
             "name": "CanvasConstructor#toBufferAsync",
             "type": "MethodDefinition",
             "paramnames": []
@@ -6069,15 +6068,15 @@
         "comment": "/**\n     * Render the canvas into a Data URL.\n     * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n     * @param {any[]} args Extra arguments\n     * @returns {string}\n     * @see https://github.com/Automattic/node-canvas#canvastodataurl-sync-and-async\n     */",
         "meta": {
           "range": [
-            50604,
-            50689
+            50608,
+            50693
           ],
           "filename": "canvas.js",
           "lineno": 1221,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002100",
+            "id": "astnode100002098",
             "name": "CanvasConstructor#toDataURL",
             "type": "MethodDefinition",
             "paramnames": [
@@ -6134,15 +6133,15 @@
         "comment": "/**\n     * Render the canvas into a Data URL using a Promise.\n     * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n     * @returns {Promise<string>}\n     */",
         "meta": {
           "range": [
-            50950,
-            51148
+            50954,
+            51152
           ],
           "filename": "canvas.js",
           "lineno": 1230,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002117",
+            "id": "astnode100002115",
             "name": "CanvasConstructor#toDataURLAsync",
             "type": "MethodDefinition",
             "paramnames": [
@@ -6299,7 +6298,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002850",
+        "id": "astnode100002848",
         "name": "exports.convolute",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6378,7 +6377,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002765",
+        "id": "astnode100002763",
         "name": "exports.darkness",
         "type": "AssignmentExpression",
         "value": "exports.myOldFriend",
@@ -6433,7 +6432,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002284",
+        "id": "astnode100002282",
         "name": "exports.greyscale",
         "type": "AssignmentExpression",
         "value": "exports.grayscale",
@@ -6479,7 +6478,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002251",
+        "id": "astnode100002249",
         "name": "exports.invert",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6526,7 +6525,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002642",
+        "id": "astnode100002640",
         "name": "exports.invertedThreshold",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6589,7 +6588,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002321",
+        "id": "astnode100002319",
         "name": "exports.invertGreyscale",
         "type": "AssignmentExpression",
         "value": "exports.invertGrayscale",
@@ -6700,7 +6699,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002377",
+        "id": "astnode100002375",
         "name": "exports.sepia",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6756,7 +6755,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002805",
+        "id": "astnode100002803",
         "name": "exports.sharpen",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6813,7 +6812,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002494",
+        "id": "astnode100002492",
         "name": "exports.silhouette",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6866,7 +6865,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002555",
+        "id": "astnode100002553",
         "name": "exports.threshold",
         "type": "ArrowFunctionExpression",
         "paramnames": [
