@@ -11,7 +11,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002777",
+        "id": "astnode100002828",
         "name": "exports.blur",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -68,7 +68,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002678",
+        "id": "astnode100002729",
         "name": "exports.brightness",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -180,15 +180,15 @@
         "comment": "/**\n     * Register a new font (Canvas 2.x).\n     * @param {string} path   The path for the font.\n     * @param {string} family The font's family name.\n     * @returns {CanvasConstructor}\n     */",
         "meta": {
           "range": [
-            50927,
-            51208
+            51831,
+            52112
           ],
           "filename": "canvas.js",
-          "lineno": 1237,
+          "lineno": 1260,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002134",
+            "id": "astnode100002185",
             "name": "CanvasConstructor.registerFont",
             "type": "MethodDefinition",
             "paramnames": [
@@ -1219,15 +1219,15 @@
         "comment": "/**\n     * Register a new font (Canvas 1.6.x).\n     * @param {string} path   The path for the font.\n     * @param {string} family The font's family name.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            50525,
-            50721
+            51429,
+            51625
           ],
           "filename": "canvas.js",
-          "lineno": 1225,
+          "lineno": 1248,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002104",
+            "id": "astnode100002155",
             "name": "CanvasConstructor#addTextFont",
             "type": "MethodDefinition",
             "paramnames": [
@@ -3955,15 +3955,15 @@
         "comment": "/**\n     * Process data with this as the context\n     * @param {Function} fn A callback function\n     * @returns {this}\n     */",
         "meta": {
           "range": [
-            51631,
-            51700
+            52535,
+            52604
           ],
           "filename": "canvas.js",
-          "lineno": 1262,
+          "lineno": 1285,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002177",
+            "id": "astnode100002228",
             "name": "CanvasConstructor#process",
             "type": "MethodDefinition",
             "paramnames": [
@@ -5975,11 +5975,11 @@
         "$longname": "CanvasConstructor#stroke"
       },
       {
-        "comment": "/**\n     * Render the canvas into a buffer.\n     * @param {Object} options The render's options.\n     * @returns {Buffer}\n     */",
+        "comment": "/**\n     * Render the canvas into a buffer.\n     * @param {any[]} args The render's options.\n     * @returns {Buffer}\n     */",
         "meta": {
           "range": [
-            49875,
-            49946
+            49871,
+            49942
           ],
           "filename": "canvas.js",
           "lineno": 1199,
@@ -5990,7 +5990,7 @@
             "name": "CanvasConstructor#toBuffer",
             "type": "MethodDefinition",
             "paramnames": [
-              "options"
+              "args"
             ]
           },
           "vars": {
@@ -6002,11 +6002,12 @@
           {
             "type": {
               "names": [
-                "Object"
+                "Array.<any>"
               ]
             },
             "description": "The render's options.",
-            "name": "options"
+            "name": "args",
+            "variable": true
           }
         ],
         "returns": [
@@ -6029,15 +6030,15 @@
         "comment": "/**\n     * Render the canvas into a buffer using a Promise.\n     * @returns {Promise<Buffer>}\n     */",
         "meta": {
           "range": [
-            50058,
-            50244
+            50054,
+            50240
           ],
           "filename": "canvas.js",
           "lineno": 1207,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002068",
+            "id": "astnode100002070",
             "name": "CanvasConstructor#toBufferAsync",
             "type": "MethodDefinition",
             "paramnames": []
@@ -6063,6 +6064,122 @@
         "scope": "instance",
         "params": [],
         "$longname": "CanvasConstructor#toBufferAsync"
+      },
+      {
+        "comment": "/**\n     * Render the canvas into a Data URL.\n     * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n     * @param {any[]} args Extra arguments\n     * @returns {string}\n     * @see https://github.com/Automattic/node-canvas#canvastodataurl-sync-and-async\n     */",
+        "meta": {
+          "range": [
+            50604,
+            50689
+          ],
+          "filename": "canvas.js",
+          "lineno": 1221,
+          "columnno": 4,
+          "path": "/home/travis/build/kyranet/canvasConstructor/src",
+          "code": {
+            "id": "astnode100002100",
+            "name": "CanvasConstructor#toDataURL",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "type",
+              "args"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Render the canvas into a Data URL.",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "string"
+              ]
+            },
+            "description": "the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.",
+            "name": "type"
+          },
+          {
+            "type": {
+              "names": [
+                "Array.<any>"
+              ]
+            },
+            "description": "Extra arguments",
+            "name": "args",
+            "variable": true
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "string"
+              ]
+            }
+          }
+        ],
+        "see": [
+          "https://github.com/Automattic/node-canvas#canvastodataurl-sync-and-async"
+        ],
+        "name": "toDataURL",
+        "longname": "CanvasConstructor#toDataURL",
+        "kind": "function",
+        "memberof": "CanvasConstructor",
+        "scope": "instance",
+        "$longname": "CanvasConstructor#toDataURL"
+      },
+      {
+        "comment": "/**\n     * Render the canvas into a Data URL using a Promise.\n     * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n     * @returns {Promise<string>}\n     */",
+        "meta": {
+          "range": [
+            50950,
+            51148
+          ],
+          "filename": "canvas.js",
+          "lineno": 1230,
+          "columnno": 4,
+          "path": "/home/travis/build/kyranet/canvasConstructor/src",
+          "code": {
+            "id": "astnode100002117",
+            "name": "CanvasConstructor#toDataURLAsync",
+            "type": "MethodDefinition",
+            "paramnames": [
+              "type"
+            ]
+          },
+          "vars": {
+            "": null
+          }
+        },
+        "description": "Render the canvas into a Data URL using a Promise.",
+        "params": [
+          {
+            "type": {
+              "names": [
+                "string"
+              ]
+            },
+            "description": "the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.",
+            "name": "type"
+          }
+        ],
+        "returns": [
+          {
+            "type": {
+              "names": [
+                "Promise.<string>"
+              ]
+            }
+          }
+        ],
+        "name": "toDataURLAsync",
+        "longname": "CanvasConstructor#toDataURLAsync",
+        "kind": "function",
+        "memberof": "CanvasConstructor",
+        "scope": "instance",
+        "$longname": "CanvasConstructor#toDataURLAsync"
       },
       {
         "comment": "/**\n     * Adds a translation transformation by moving the canvas and its origin x horizontally and y vertically on the grid.\n     * @param {number} x Distance to move in the horizontal direction.\n     * @param {number} y Distance to move in the vertical direction.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/translate\n     */",
@@ -6182,7 +6299,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002799",
+        "id": "astnode100002850",
         "name": "exports.convolute",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6261,7 +6378,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002714",
+        "id": "astnode100002765",
         "name": "exports.darkness",
         "type": "AssignmentExpression",
         "value": "exports.myOldFriend",
@@ -6316,7 +6433,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002233",
+        "id": "astnode100002284",
         "name": "exports.greyscale",
         "type": "AssignmentExpression",
         "value": "exports.grayscale",
@@ -6362,7 +6479,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002200",
+        "id": "astnode100002251",
         "name": "exports.invert",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6409,7 +6526,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002591",
+        "id": "astnode100002642",
         "name": "exports.invertedThreshold",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6472,7 +6589,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002270",
+        "id": "astnode100002321",
         "name": "exports.invertGreyscale",
         "type": "AssignmentExpression",
         "value": "exports.invertGrayscale",
@@ -6583,7 +6700,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002326",
+        "id": "astnode100002377",
         "name": "exports.sepia",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6639,7 +6756,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002754",
+        "id": "astnode100002805",
         "name": "exports.sharpen",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6696,7 +6813,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002443",
+        "id": "astnode100002494",
         "name": "exports.silhouette",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6749,7 +6866,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002504",
+        "id": "astnode100002555",
         "name": "exports.threshold",
         "type": "ArrowFunctionExpression",
         "paramnames": [
