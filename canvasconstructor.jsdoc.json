@@ -11,7 +11,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002826",
+        "id": "astnode100002828",
         "name": "exports.blur",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -68,7 +68,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002727",
+        "id": "astnode100002729",
         "name": "exports.brightness",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -180,15 +180,15 @@
         "comment": "/**\n     * Register a new font (Canvas 2.x).\n     * @param {string} path   The path for the font.\n     * @param {string} family The font's family name.\n     * @returns {CanvasConstructor}\n     */",
         "meta": {
           "range": [
-            51835,
-            52116
+            51833,
+            52114
           ],
           "filename": "canvas.js",
           "lineno": 1260,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002183",
+            "id": "astnode100002185",
             "name": "CanvasConstructor.registerFont",
             "type": "MethodDefinition",
             "paramnames": [
@@ -241,8 +241,8 @@
         "comment": "/**\n     * Add a beveled image.\n     * @param {Buffer} buffer The image's buffer.\n     * @param {number} x      The position x to start drawing the element.\n     * @param {number} y      The position y to start drawing the element.\n     * @param {number} width  The width of the element.\n     * @param {number} height The heigth of the element.\n     * @param {number} radius The radius for the new image.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            22400,
-            22549
+            22402,
+            22551
           ],
           "filename": "canvas.js",
           "lineno": 563,
@@ -350,8 +350,8 @@
         "comment": "/**\n     * Add a circle or semi circle.\n     * @param {number} x                   The position x in the center of the circle.\n     * @param {number} y                   The position y in the center of the ircle.\n     * @param {number} radius              The radius for the clip.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            22902,
-            22991
+            22904,
+            22993
           ],
           "filename": "canvas.js",
           "lineno": 575,
@@ -428,8 +428,8 @@
         "comment": "/**\n     * Add an image.\n     * @param {Buffer} buffer  The image's buffer.\n     * @param {number} x       The position x to start drawing the element.\n     * @param {number} y       The position y to start drawing the element.\n     * @param {number} width   The width of the element.\n     * @param {number} height  The heigth of the element.\n     * @param {Object} options Options.\n     * @param {number} options.radius The radius for the new image.\n     * @param {'round'|'bevel'} options.type   The type for the new image.\n     * @param {boolean} options.restore Whether this method should restore the drawing state. Use this when you use options.type\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            20655,
-            21299
+            20657,
+            21301
           ],
           "filename": "canvas.js",
           "lineno": 523,
@@ -564,8 +564,8 @@
         "comment": "/**\n     * Add responsive text\n     * @param {string} text     The text to write.\n     * @param {number} x        The position x to start drawing the element.\n     * @param {number} y        The position y to start drawing the element.\n     * @param {number} maxWidth The max length in pixels for the text.\n     * @param {number} lineHeight The line's height.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @example\n     * new Canvas(400, 300)\n     *     .setTextFont('25px Tahoma')\n     *     .addMultilineText('This is a really long text!', 139, 360, 156, 28)\n     *     .toBuffer();\n     */",
         "meta": {
           "range": [
-            12141,
-            12746
+            12143,
+            12748
           ],
           "filename": "canvas.js",
           "lineno": 316,
@@ -665,8 +665,8 @@
         "comment": "/**\n     * Add a rectangle.\n     * @param {number} x      The position x to start drawing the element.\n     * @param {number} y      The position y to start drawing the element.\n     * @param {number} width  The width of the element.\n     * @param {number} height The heigth of the element.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillRect\n     */",
         "meta": {
           "range": [
-            27725,
-            27834
+            27727,
+            27836
           ],
           "filename": "canvas.js",
           "lineno": 690,
@@ -756,8 +756,8 @@
         "comment": "/**\n     * Add responsive text\n     * @param {string} text     The text to write.\n     * @param {number} x        The position x to start drawing the element.\n     * @param {number} y        The position y to start drawing the element.\n     * @param {number} maxWidth The max length in pixels for the text.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @example\n     * new Canvas(400, 300)\n     *     .setTextFont('40px Tahoma')\n     *     .addResponsiveText('Hello World', 30, 30, 50)\n     *     .toBuffer();\n     */",
         "meta": {
           "range": [
-            11097,
-            11523
+            11099,
+            11525
           ],
           "filename": "canvas.js",
           "lineno": 291,
@@ -847,8 +847,8 @@
         "comment": "/**\n     * Add a round image.\n     * @param {Buffer} buffer The image's buffer.\n     * @param {number} x      The position x to start drawing the element.\n     * @param {number} y      The position y to start drawing the element.\n     * @param {number} width  The width of the element.\n     * @param {number} height The heigth of the element.\n     * @param {number} radius The radius for the new image.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            21774,
-            21923
+            21776,
+            21925
           ],
           "filename": "canvas.js",
           "lineno": 548,
@@ -956,8 +956,8 @@
         "comment": "/**\n     * Paints a rectangle which has a starting point at (x, y) and has a w width and an h height onto the canvas, using\n     * the current stroke style.\n     * @param {number} x      The x axis of the coordinate for the rectangle starting point.\n     * @param {number} y      The y axis of the coordinate for the rectangle starting point.\n     * @param {number} width  The rectangle's width.\n     * @param {number} height The rectangle's height.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeRect\n     */",
         "meta": {
           "range": [
-            13764,
-            13881
+            13766,
+            13883
           ],
           "filename": "canvas.js",
           "lineno": 358,
@@ -1047,8 +1047,8 @@
         "comment": "/**\n     * Add stroked text.\n     * @param {string} text The text to write.\n     * @param {number} x    The position x to start drawing the element.\n     * @param {number} y    The position y to start drawing the element.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeText\n     */",
         "meta": {
           "range": [
-            14272,
-            14371
+            14274,
+            14373
           ],
           "filename": "canvas.js",
           "lineno": 372,
@@ -1125,11 +1125,11 @@
         "$longname": "CanvasConstructor#addStrokeText"
       },
       {
-        "comment": "/**\n     * Add a text.\n     * @param {string} text The text to write.\n     * @param {number} x    The position x to start drawing the element.\n     * @param {number} y    The position y to start drawing the element.\n     * @param {number} maxWidth The maximum width to draw. If specified, and the string is computed to be wider than\n     * this width, the font is adjusted to use a more horizontally condensed font.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillText\n     */",
+        "comment": "/**\n     * Add a text.\n     * @param {string} text The text to write.\n     * @param {number} x    The position x to start drawing the element.\n     * @param {number} y    The position y to start drawing the element.\n     * @param {number} [maxWidth] The maximum width to draw. If specified, and the string is computed to be wider than\n     * this width, the font is adjusted to use a more horizontally condensed font.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillText\n     */",
         "meta": {
           "range": [
-            10443,
-            10554
+            10445,
+            10556
           ],
           "filename": "canvas.js",
           "lineno": 272,
@@ -1185,6 +1185,7 @@
                 "number"
               ]
             },
+            "optional": true,
             "description": "The maximum width to draw. If specified, and the string is computed to be wider than\nthis width, the font is adjusted to use a more horizontally condensed font.",
             "name": "maxWidth"
           }
@@ -1219,15 +1220,15 @@
         "comment": "/**\n     * Register a new font (Canvas 1.6.x).\n     * @param {string} path   The path for the font.\n     * @param {string} family The font's family name.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            51433,
-            51629
+            51431,
+            51627
           ],
           "filename": "canvas.js",
           "lineno": 1248,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002153",
+            "id": "astnode100002155",
             "name": "CanvasConstructor#addTextFont",
             "type": "MethodDefinition",
             "paramnames": [
@@ -1287,8 +1288,8 @@
         "comment": "/**\n     * Adds an arc to the path which is centered at (x, y) position with radius r starting at startAngle and ending at\n     * endAngle going in the given direction by anticlockwise (defaulting to clockwise).\n     * @param {number} x          The x coordinate of the arc's center.\n     * @param {number} y          The y coordinate of the arc's center.\n     * @param {number} radius     The arc's radius.\n     * @param {number} startAngle The angle at which the arc starts, measured clockwise from the positive x axis and\n     * expressed in radians.\n     * @param {number} endAngle   The angle at which the arc ends, measured clockwise from the positive x axis and\n     * expressed in radians.\n     * @param {boolean} [anticlockwise=false] An optional Boolean which, if true, causes the arc to be drawn\n     * counter-clockwise between the two angles. By default it is drawn clockwise.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc\n     */",
         "meta": {
           "range": [
-            37176,
-            37344
+            37178,
+            37346
           ],
           "filename": "canvas.js",
           "lineno": 894,
@@ -1400,8 +1401,8 @@
         "comment": "/**\n     * Adds an arc to the path with the given control points and radius, connected to the previous point by a straight line.\n     * @param {number} x1     The x axis of the coordinate for the first control point.\n     * @param {number} y1     The y axis of the coordinate for the first control point.\n     * @param {number} x2     The x axis of the coordinate for the second control point.\n     * @param {number} y2     The y axis of the coordinate for the second control point.\n     * @param {number} radius The arc's radius.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo\n     */",
         "meta": {
           "range": [
-            38039,
-            38149
+            38041,
+            38151
           ],
           "filename": "canvas.js",
           "lineno": 910,
@@ -1501,8 +1502,8 @@
         "comment": "/**\n     * Starts a new path by emptying the list of sub-paths.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/beginPath\n     */",
         "meta": {
           "range": [
-            29572,
-            29646
+            29574,
+            29648
           ],
           "filename": "canvas.js",
           "lineno": 749,
@@ -1550,8 +1551,8 @@
         "comment": "/**\n     * Adds a cubic Bézier curve to the path. It requires three points. The first two points are control points and the\n     * third one is the end point. The starting point is the last point in the current path, which can be changed using\n     * moveTo() before creating the Bézier curve.\n     * @param {number} cp1x The x axis of the coordinate for the first control point.\n     * @param {number} cp1y The y axis of the coordinate for first control point.\n     * @param {number} cp2x The x axis of the coordinate for the second control point.\n     * @param {number} cp2y The y axis of the coordinate for the second control point.\n     * @param {number} x    The x axis of the coordinate for the end point.\n     * @param {number} y    The y axis of the coordinate for the end point.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo\n     */",
         "meta": {
           "range": [
-            40010,
-            40148
+            40012,
+            40150
           ],
           "filename": "canvas.js",
           "lineno": 946,
@@ -1845,8 +1846,8 @@
         "comment": "/**\n     * Clear a circle.\n     * @param {number} x                   The position x in the center of the clip's circle.\n     * @param {number} y                   The position y in the center of the clip's circle.\n     * @param {number} radius              The radius for the clip.\n     * @param {number} [start=0]           The degree in radians to start drawing the circle.\n     * @param {number} [angle=Math.PI * 2] The degree in radians to finish drawing the circle, defaults to a full circle.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            46816,
-            47032
+            46818,
+            47034
           ],
           "filename": "canvas.js",
           "lineno": 1121,
@@ -1947,8 +1948,8 @@
         "comment": "/**\n     * Clear an area.\n     * @param {number} [x=0]                The position x to start drawing the element.\n     * @param {number} [y=0]                The position y to start drawing the element.\n     * @param {number} [width=this.width]   The width of the element.\n     * @param {number} [height=this.heigth] The heigth of the element.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect\n     */",
         "meta": {
           "range": [
-            47545,
-            47694
+            47547,
+            47696
           ],
           "filename": "canvas.js",
           "lineno": 1137,
@@ -2118,8 +2119,8 @@
         "comment": "/**\n     * Causes the point of the pen to move back to the start of the current sub-path.\n     * If the shape has already been closed or has only one point, this function does nothing.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/closePath\n     */",
         "meta": {
           "range": [
-            29999,
-            30073
+            30001,
+            30075
           ],
           "filename": "canvas.js",
           "lineno": 761,
@@ -2167,8 +2168,8 @@
         "comment": "/**\n     * Create a round clip.\n     * @param {number} x      The position x to start drawing clip.\n     * @param {number} y      The position y to start drawing clip.\n     * @param {number} width  The width of clip.\n     * @param {number} height The heigth of clip.\n     * @param {number} radius The radius for clip's rounded borders.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            27138,
-            27267
+            27140,
+            27269
           ],
           "filename": "canvas.js",
           "lineno": 676,
@@ -2265,8 +2266,8 @@
         "comment": "/**\n     * Create a round path.\n     * @param {number} x      The position x to start drawing clip.\n     * @param {number} y      The position y to start drawing clip.\n     * @param {number} width  The width of clip.\n     * @param {number} height The heigth of clip.\n     * @param {number} radius The radius for clip's rounded borders.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            25837,
-            26730
+            25839,
+            26732
           ],
           "filename": "canvas.js",
           "lineno": 647,
@@ -2363,8 +2364,8 @@
         "comment": "/**\n     * Adds an ellipse to the path which is centered at (x, y) position with the radii radiusX and radiusY starting at\n     * startAngle and ending at endAngle going in the given direction by anticlockwise (defaulting to clockwise).\n     * @param {number} x          The x axis of the coordinate for the ellipse's center.\n     * @param {number} y          The y axis of the coordinate for the ellipse's center.\n     * @param {number} radiusX    The ellipse's major-axis radius.\n     * @param {number} radiusY    The ellipse's minor-axis radius.\n     * @param {number} rotation   The rotation for this ellipse, expressed in radians.\n     * @param {number} startAngle The starting point, measured from the x axis, from which it will be drawn, expressed\n     * in radians.\n     * @param {number} endAngle   The end ellipse's angle to which it will be drawn, expressed in radians.\n     * @param {boolean} [anticlockwise=false] An optional Boolean which, if true, draws the ellipse anticlockwise\n     * (counter-clockwise), otherwise in a clockwise direction.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/ellipse\n     */",
         "meta": {
           "range": [
-            35910,
-            36124
+            35912,
+            36126
           ],
           "filename": "canvas.js",
           "lineno": 873,
@@ -2496,8 +2497,8 @@
         "comment": "/**\n     * Creates a gradient along the line given by the coordinates represented by the parameters.\n     * The coordinates are global, the second point does not rely on the position of the first and vice versa.\n     * @param {number} x0 The x axis of the coordinate of the start point.\n     * @param {number} y0 The y axis of the coordinate of the start point.\n     * @param {number} x1 The x axis of the coordinate of the end point.\n     * @param {number} y1 The y axis of the coordinate of the end point.\n     * @param {GradientStep[]} [steps=[]] The steps.\n     * @returns {CanvasGradient}\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient\n     */",
         "meta": {
           "range": [
-            31388,
-            31663
+            31390,
+            31665
           ],
           "filename": "canvas.js",
           "lineno": 791,
@@ -2592,8 +2593,8 @@
         "comment": "/**\n     * Creates a pattern using the specified image. It repeats the source in the directions specified by the repetition\n     * argument.\n     * @param {Image} image A Canvas Image to be used as the image to repeat.\n     * @param {('repeat'|'repeat-x'|'repeat-y'|'no-repeat')} repetition The repeat mode.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createPattern\n     */",
         "meta": {
           "range": [
-            30553,
-            30669
+            30555,
+            30671
           ],
           "filename": "canvas.js",
           "lineno": 775,
@@ -2666,8 +2667,8 @@
         "comment": "/**\n     * Creates a radial gradient given by the coordinates of the two circles represented by the parameters.\n     * @param {number} x0 The x axis of the coordinate of the start circle.\n     * @param {number} y0 The y axis of the coordinate of the start circle.\n     * @param {number} r0 The radius of the start circle.\n     * @param {number} x1 The x axis of the coordinate of the end circle.\n     * @param {number} y1 The y axis of the coordinate of the end circle.\n     * @param {number} r1 The radius of the end circle.\n     * @param {GradientStep[]} [steps=[]] The steps.\n     * @returns {CanvasGradient}\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient\n     */",
         "meta": {
           "range": [
-            33380,
-            33671
+            33382,
+            33673
           ],
           "filename": "canvas.js",
           "lineno": 829,
@@ -2782,8 +2783,8 @@
         "comment": "/**\n     * Create a rectangle clip.\n     * @param {number} x      The position x in the left corner.\n     * @param {number} y      The position y in the upper corner.\n     * @param {number} width  The width of the rectangle.\n     * @param {number} height The height of the rectangle.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            25322,
-            25429
+            25324,
+            25431
           ],
           "filename": "canvas.js",
           "lineno": 633,
@@ -2870,8 +2871,8 @@
         "comment": "/**\n     * Create a rectangle path.\n     * @param {number} x      The position x in the left corner.\n     * @param {number} y      The position y in the upper corner.\n     * @param {number} width  The width of the rectangle.\n     * @param {number} height The height of the rectangle.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            24854,
-            24966
+            24856,
+            24968
           ],
           "filename": "canvas.js",
           "lineno": 619,
@@ -2958,8 +2959,8 @@
         "comment": "/**\n     * Create a round clip.\n     * @param {number} x                   The position x in the center of the clip's circle.\n     * @param {number} y                   The position y in the center of the clip's circle.\n     * @param {number} radius              The radius for the clip.\n     * @param {number} [start=0]           The degree in radians to start drawing the circle.\n     * @param {number} [angle=Math.PI * 2] The degree in radians to finish drawing the circle, defaults to a full circle.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            24357,
-            24498
+            24359,
+            24500
           ],
           "filename": "canvas.js",
           "lineno": 606,
@@ -3060,8 +3061,8 @@
         "comment": "/**\n     * Create a round path.\n     * @param {number} x                   The position x in the center of the clip's circle.\n     * @param {number} y                   The position y in the center of the clip's circle.\n     * @param {number} radius              The radius for the clip.\n     * @param {number} [start=0]           The degree in radians to start drawing the circle.\n     * @param {number} [angle=Math.PI * 2] The degree in radians to finish drawing the circle, defaults to a full circle.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            23567,
-            23781
+            23569,
+            23783
           ],
           "filename": "canvas.js",
           "lineno": 589,
@@ -3375,8 +3376,8 @@
         "comment": "/**\n     * Reports whether or not the specified point is contained in the current path.\n     * @param {number} x The X coordinate of the point to check.\n     * @param {number} y The Y coordinate of the point to check.\n     * @param {('nonzero'|'evenodd')} fillRule The algorithm by which to determine if a point is inside a path or\n     * outside a path.\n     * @returns {boolean}\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInPath\n     */",
         "meta": {
           "range": [
-            49173,
-            49269
+            49175,
+            49271
           ],
           "filename": "canvas.js",
           "lineno": 1179,
@@ -3450,8 +3451,8 @@
         "comment": "/**\n     * Reports whether or not the specified point is inside the area contained by the stroking of a path.\n     * @param {number} x The X coordinate of the point to check.\n     * @param {number} y The Y coordinate of the point to check.\n     * @returns {boolean}\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInStroke\n     */",
         "meta": {
           "range": [
-            49655,
-            49735
+            49657,
+            49737
           ],
           "filename": "canvas.js",
           "lineno": 1190,
@@ -3514,8 +3515,8 @@
         "comment": "/**\n     * Connects the last point in the sub-path to the x, y coordinates with a straight line\n     * @param {number} x The x axis of the coordinate for the end of the line.\n     * @param {number} y The y axis of the coordinate for the end of the line.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo\n     */",
         "meta": {
           "range": [
-            40567,
-            40643
+            40569,
+            40645
           ],
           "filename": "canvas.js",
           "lineno": 959,
@@ -3585,8 +3586,8 @@
         "comment": "/**\n     * Measure a text's width given a string.\n     * If a callback is not passed, this method will not be chainable, and it will return an integer instead.\n     * @param {string}   text     The text to measure.\n     * @param {Function} callback The callback, if not specified, this method won't be chainable as it will return a\n     * number. If you use an arrow function, you might want to use the second argument which is the instance of the\n     * class. Otherwise, the keyword this is binded to the class instance itself, so you can use it safely.\n     * @returns {(CanvasConstructor|number)}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/measureText\n     * @example\n     * new Canvas(500, 400)\n     *     .setTextFont('40px Tahoma')\n     *     .measureText('Hello World!', function(size) {\n     *         const newSize = size.width < 500 ? 40 : (500 / size.width) * 40;\n     *         this.setTextFont(`${newSize}px Tahoma`);\n     *     })\n     *     .addText('Hello World!', 30, 50)\n     *     .toBuffer(); // Returns a Buffer\n     * @example\n     * new Canvas(500, 400)\n     *     .setTextFont('40px Tahoma')\n     *     .measureText('Hello World!', (size, inst) => {\n     *         const newSize = size.width < 500 ? 40 : (500 / size.width) * 40;\n     *         inst.setTextFont(`${newSize}px`);\n     *     })\n     *     .addText('Hello World!', 30, 50)\n     *     .toBuffer(); // Returns a Buffer\n     * @example\n     * const size = new Canvas(500, 400)\n     *     .setTextFont('40px Tahoma')\n     *     .measureText('Hello World!'); // Returns a number\n     *\n     * const newSize = size.width < 500 ? 40 : (500 / size.width) * 40;\n     *\n     * new Canvas(500, 400)\n     *     .setTextFont(`${newSize}px Tahoma`)\n     *     .addText('Hello World!', 30, 50)\n     *     .toBuffer(); // Returns a Buffer\n     */",
         "meta": {
           "range": [
-            16262,
-            16575
+            16264,
+            16577
           ],
           "filename": "canvas.js",
           "lineno": 417,
@@ -3662,8 +3663,8 @@
         "comment": "/**\n     * Moves the starting point of a new sub-path to the (x, y) coordinates.\n     * @param {number} x The x axis of the point.\n     * @param {number} y The y axis of the point.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo\n     */",
         "meta": {
           "range": [
-            40989,
-            41065
+            40991,
+            41067
           ],
           "filename": "canvas.js",
           "lineno": 972,
@@ -3733,8 +3734,8 @@
         "comment": "/**\n     * Creates a gradient along the line given by the coordinates represented by the parameters.\n     * The coordinates are global, the second point does not rely on the position of the first and vice versa. This\n     * method is chainable and calls setColor after creating the gradient.\n     * @param {number} x0 The x axis of the coordinate of the start point.\n     * @param {number} y0 The y axis of the coordinate of the start point.\n     * @param {number} x1 The x axis of the coordinate of the end point.\n     * @param {number} y1 The y axis of the coordinate of the end point.\n     * @param {GradientStep[]} steps The steps.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient\n     */",
         "meta": {
           "range": [
-            32478,
-            32643
+            32480,
+            32645
           ],
           "filename": "canvas.js",
           "lineno": 812,
@@ -3834,8 +3835,8 @@
         "comment": "/**\n     * Creates a radial gradient given by the coordinates of the two circles represented by the parameters. This\n     * method is chainable and calls setColor after creating the gradient.\n     * @param {number} x0 The x axis of the coordinate of the start circle.\n     * @param {number} y0 The y axis of the coordinate of the start circle.\n     * @param {number} r0 The radius of the start circle.\n     * @param {number} x1 The x axis of the coordinate of the end circle.\n     * @param {number} y1 The y axis of the coordinate of the end circle.\n     * @param {number} r1 The radius of the end circle.\n     * @param {GradientStep[]} steps The steps.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient\n     */",
         "meta": {
           "range": [
-            34504,
-            34685
+            34506,
+            34687
           ],
           "filename": "canvas.js",
           "lineno": 851,
@@ -3955,15 +3956,15 @@
         "comment": "/**\n     * Process data with this as the context\n     * @param {Function} fn A callback function\n     * @returns {this}\n     */",
         "meta": {
           "range": [
-            52539,
-            52608
+            52537,
+            52606
           ],
           "filename": "canvas.js",
           "lineno": 1285,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002226",
+            "id": "astnode100002228",
             "name": "CanvasConstructor#process",
             "type": "MethodDefinition",
             "paramnames": [
@@ -4127,8 +4128,8 @@
         "comment": "/**\n     * Adds a quadratic Bézier curve to the path. It requires two points. The first point is a control point and the\n     * second one is the end point. The starting point is the last point in the current path, which can be changed using\n     * moveTo() before creating the quadratic Bézier curve.\n     * @param {number} cpx The x axis of the coordinate for the control point.\n     * @param {number} cpy The y axis of the coordinate for the control point.\n     * @param {number} x   The x axis of the coordinate for the end point.\n     * @param {number} y   The y axis of the coordinate for the end point.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo\n     */",
         "meta": {
           "range": [
-            38934,
-            39050
+            38936,
+            39052
           ],
           "filename": "canvas.js",
           "lineno": 927,
@@ -4218,8 +4219,8 @@
         "comment": "/**\n     * Reset the canvas' shadows.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            46133,
-            46245
+            46135,
+            46247
           ],
           "filename": "canvas.js",
           "lineno": 1105,
@@ -4540,8 +4541,8 @@
         "comment": "/**\n     * Set anti-aliasing mode.\n     * @param {('default'|'none'|'gray'|'subpixel')} antialias The antialias mode.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            44537,
-            44636
+            44539,
+            44638
           ],
           "filename": "canvas.js",
           "lineno": 1070,
@@ -4601,8 +4602,8 @@
         "comment": "/**\n     * Set a color for the canvas' context.\n     * @param {string|CanvasGradient} color A canvas' color resolvable.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/fillStyle\n     */",
         "meta": {
           "range": [
-            28122,
-            28206
+            28124,
+            28208
           ],
           "filename": "canvas.js",
           "lineno": 702,
@@ -4663,8 +4664,8 @@
         "comment": "/**\n     * Modify the alpha value that is applied to shapes and images before they are drawn into the canvas.\n     * @param {number} value The alpha value, from 0.0 (fully transparent) to 1.0 (fully opaque)\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalAlpha\n     */",
         "meta": {
           "range": [
-            45931,
-            46023
+            45933,
+            46025
           ],
           "filename": "canvas.js",
           "lineno": 1095,
@@ -4724,8 +4725,8 @@
         "comment": "/**\n     * Sets the type of compositing operation to apply when drawing new shapes, where type is a string identifying which\n     * of the compositing or blending mode operations to use.\n     * @param {('source-over'|'source-in'|'source-out'|'source-atop'|'destination-over'|'destination-in'|'destination-out'|'destination-atop'|'lighter'|'copy'|'xor'|'darken'|'lighten'|'color-dodge'|'color-burn'|'difference'|'exclusion'|'hue'|'saturation'|'color'|'luminosity'|'multiply'|'screen'|'overlay'|'hard-light'|'soft-light'|'hsl-hue'|'hsl-saturation'|'hsl-color'|'hsl-luminosity')} type The global composite operation mode.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation\n     */",
         "meta": {
           "range": [
-            45438,
-            45554
+            45440,
+            45556
           ],
           "filename": "canvas.js",
           "lineno": 1083,
@@ -4814,8 +4815,8 @@
         "comment": "/**\n     * Determines how the end points of every line are drawn. There are three possible values for this property and\n     * those are: butt, round and square. By default this property is set to butt.\n     * @param {('butt'|'round'|'square')} value The line join type.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineCap\n     */",
         "meta": {
           "range": [
-            18983,
-            19067
+            18985,
+            19069
           ],
           "filename": "canvas.js",
           "lineno": 488,
@@ -4877,8 +4878,8 @@
         "comment": "/**\n     * Sets the line dash pattern used when stroking lines, using an array of values which specify alternating lengths\n     * of lines and gaps which describe the pattern.\n     * @param {number[]} segments An Array of numbers which specify distances to alternately draw a line and a gap (in\n     * coordinate space units). If the number of elements in the array is odd, the elements of the array get copied and\n     * concatenated. For example, [5, 15, 25] will become [5, 15, 25, 5, 15, 25]. If the array is empty, the line dash\n     * list is cleared and line strokes return to being solid.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash\n     */",
         "meta": {
           "range": [
-            19834,
-            19928
+            19836,
+            19930
           ],
           "filename": "canvas.js",
           "lineno": 504,
@@ -4938,8 +4939,8 @@
         "comment": "/**\n     * Sets the line dash pattern offset or \"phase\" to achieve a \"marching ants\" effect\n     * @param {number} value A float specifying the amount of the offset. Initially 0.0.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset\n     */",
         "meta": {
           "range": [
-            17850,
-            17948
+            17852,
+            17950
           ],
           "filename": "canvas.js",
           "lineno": 461,
@@ -4999,8 +5000,8 @@
         "comment": "/**\n     * Determines how two connecting segments (of lines, arcs or curves) with non-zero lengths in a shape are joined\n     * together (degenerate segments with zero lengths, whose specified endpoints and control points are exactly at the\n     * same position, are skipped).\n     * @param {('bevel'|'round'|'miter')} value The line join type.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineJoin\n     */",
         "meta": {
           "range": [
-            18460,
-            18546
+            18462,
+            18548
           ],
           "filename": "canvas.js",
           "lineno": 475,
@@ -5062,8 +5063,8 @@
         "comment": "/**\n     * Sets the thickness of lines in space units.\n     * @param {number} [width=1] A number specifying the line width in space units.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineWidth\n     */",
         "meta": {
           "range": [
-            17328,
-            17420
+            17330,
+            17422
           ],
           "filename": "canvas.js",
           "lineno": 445,
@@ -5125,8 +5126,8 @@
         "comment": "/**\n     * Sets the miter limit ratio in space units. When getting, it returns the current value (10.0 by default). When\n     * setting, zero, negative, Infinity and NaN values are ignored; otherwise the current value is set to the new value.\n     * @param {number} value A number specifying the miter limit ratio in space units. Zero, negative, Infinity and NaN\n     * values are ignored.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/miterLimit\n     */",
         "meta": {
           "range": [
-            43251,
-            43341
+            43253,
+            43343
           ],
           "filename": "canvas.js",
           "lineno": 1034,
@@ -5186,8 +5187,8 @@
         "comment": "/**\n     * Change the pattern quality\n     * @param {('fast'|'good'|'best'|'nearest'|'bilinear')} pattern The pattern quality.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            43540,
-            43642
+            43542,
+            43644
           ],
           "filename": "canvas.js",
           "lineno": 1045,
@@ -5248,8 +5249,8 @@
         "comment": "/**\n     * Set the shadow's blur.\n     * @param {number} radius The shadow's blur radius to set.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur\n     */",
         "meta": {
           "range": [
-            41331,
-            41423
+            41333,
+            41425
           ],
           "filename": "canvas.js",
           "lineno": 984,
@@ -5309,8 +5310,8 @@
         "comment": "/**\n     * Set the shadow's color.\n     * @param {string} color A canvas' color resolvable to set as shadow's color.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor\n     */",
         "meta": {
           "range": [
-            41710,
-            41802
+            41712,
+            41804
           ],
           "filename": "canvas.js",
           "lineno": 996,
@@ -5370,8 +5371,8 @@
         "comment": "/**\n     * Set the property that specifies the distance that the shadow will be offset in horizontal distance.\n     * @param {number} value The value in pixels for the distance.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX\n     */",
         "meta": {
           "range": [
-            42152,
-            42248
+            42154,
+            42250
           ],
           "filename": "canvas.js",
           "lineno": 1008,
@@ -5431,8 +5432,8 @@
         "comment": "/**\n     * Set the property that specifies the distance that the shadow will be offset in vertical distance.\n     * @param {number} value The value in pixels for the distance.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY\n     */",
         "meta": {
           "range": [
-            42596,
-            42692
+            42598,
+            42694
           ],
           "filename": "canvas.js",
           "lineno": 1020,
@@ -5492,8 +5493,8 @@
         "comment": "/**\n     * Specifies the color or style to use for the lines around shapes. The default is #000000 (black).\n     * @param {string} [color='#000000'] A canvas' color resolvable.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/strokeStyle\n     */",
         "meta": {
           "range": [
-            16922,
-            17021
+            16924,
+            17023
           ],
           "filename": "canvas.js",
           "lineno": 433,
@@ -5555,8 +5556,8 @@
         "comment": "/**\n     * Change the font alignment.\n     * @param {('left'|'center'|'right'|'start'|'end')} align The font's alignment to set.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textAlign\n     */",
         "meta": {
           "range": [
-            28826,
-            28914
+            28828,
+            28916
           ],
           "filename": "canvas.js",
           "lineno": 726,
@@ -5620,8 +5621,8 @@
         "comment": "/**\n     * Change the font's baseline.\n     * @param {('top'|'hanging'|'middle'|'alphabetic'|'ideographic'|'bottom')} baseline The font's baseline to set.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/textBaseline\n     */",
         "meta": {
           "range": [
-            29240,
-            29340
+            29242,
+            29342
           ],
           "filename": "canvas.js",
           "lineno": 738,
@@ -5686,8 +5687,8 @@
         "comment": "/**\n     * Set the text drawing mode. Using glyph is much faster than path for drawing, and when using a PDF context will\n     * embed the text natively, so will be selectable and lower filesize. The downside is that cairo does not have any\n     * subpixel precision for glyph, so this will be noticeably lower quality for text positioning in cases such as\n     * rotated text. Also, strokeText in glyph will act the same as fillText, except using the stroke style for the fill.\n     * @param {('path'|'glyph')} mode The drawing mode.\n     * @returns {CanvasConstructor}\n     * @chainable\n     */",
         "meta": {
           "range": [
-            44249,
-            44347
+            44251,
+            44349
           ],
           "filename": "canvas.js",
           "lineno": 1059,
@@ -5745,8 +5746,8 @@
         "comment": "/**\n     * Change the font.\n     * @param {string} font The font's name to set.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/font\n     */",
         "meta": {
           "range": [
-            28449,
-            28529
+            28451,
+            28531
           ],
           "filename": "canvas.js",
           "lineno": 714,
@@ -5917,8 +5918,8 @@
         "comment": "/**\n     * Strokes the current or given path with the current stroke style using the non-zero winding rule.\n     * @param {any} path A Path2D path to stroke.\n     * @returns {CanvasConstructor}\n     * @chainable\n     * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/stroke\n     */",
         "meta": {
           "range": [
-            13069,
-            13145
+            13071,
+            13147
           ],
           "filename": "canvas.js",
           "lineno": 342,
@@ -5975,11 +5976,11 @@
         "$longname": "CanvasConstructor#stroke"
       },
       {
-        "comment": "/**\n     * Render the canvas into a buffer.\n     * @param {Object} options The render's options.\n     * @returns {Buffer}\n     */",
+        "comment": "/**\n     * Render the canvas into a buffer.\n     * @param {any[]} args The render's options.\n     * @returns {Buffer}\n     */",
         "meta": {
           "range": [
-            49875,
-            49946
+            49873,
+            49944
           ],
           "filename": "canvas.js",
           "lineno": 1199,
@@ -5990,7 +5991,7 @@
             "name": "CanvasConstructor#toBuffer",
             "type": "MethodDefinition",
             "paramnames": [
-              "options"
+              "args"
             ]
           },
           "vars": {
@@ -6002,11 +6003,12 @@
           {
             "type": {
               "names": [
-                "Object"
+                "Array.<any>"
               ]
             },
             "description": "The render's options.",
-            "name": "options"
+            "name": "args",
+            "variable": true
           }
         ],
         "returns": [
@@ -6029,15 +6031,15 @@
         "comment": "/**\n     * Render the canvas into a buffer using a Promise.\n     * @returns {Promise<Buffer>}\n     */",
         "meta": {
           "range": [
-            50058,
-            50244
+            50056,
+            50242
           ],
           "filename": "canvas.js",
           "lineno": 1207,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002068",
+            "id": "astnode100002070",
             "name": "CanvasConstructor#toBufferAsync",
             "type": "MethodDefinition",
             "paramnames": []
@@ -6068,15 +6070,15 @@
         "comment": "/**\n     * Render the canvas into a Data URL.\n     * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n     * @param {any[]} args Extra arguments\n     * @returns {string}\n     * @see https://github.com/Automattic/node-canvas#canvastodataurl-sync-and-async\n     */",
         "meta": {
           "range": [
-            50608,
-            50693
+            50606,
+            50691
           ],
           "filename": "canvas.js",
           "lineno": 1221,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002098",
+            "id": "astnode100002100",
             "name": "CanvasConstructor#toDataURL",
             "type": "MethodDefinition",
             "paramnames": [
@@ -6133,15 +6135,15 @@
         "comment": "/**\n     * Render the canvas into a Data URL using a Promise.\n     * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n     * @returns {Promise<string>}\n     */",
         "meta": {
           "range": [
-            50954,
-            51152
+            50952,
+            51150
           ],
           "filename": "canvas.js",
           "lineno": 1230,
           "columnno": 4,
           "path": "/home/travis/build/kyranet/canvasConstructor/src",
           "code": {
-            "id": "astnode100002115",
+            "id": "astnode100002117",
             "name": "CanvasConstructor#toDataURLAsync",
             "type": "MethodDefinition",
             "paramnames": [
@@ -6298,7 +6300,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002848",
+        "id": "astnode100002850",
         "name": "exports.convolute",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6377,7 +6379,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002763",
+        "id": "astnode100002765",
         "name": "exports.darkness",
         "type": "AssignmentExpression",
         "value": "exports.myOldFriend",
@@ -6432,7 +6434,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002282",
+        "id": "astnode100002284",
         "name": "exports.greyscale",
         "type": "AssignmentExpression",
         "value": "exports.grayscale",
@@ -6478,7 +6480,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002249",
+        "id": "astnode100002251",
         "name": "exports.invert",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6525,7 +6527,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002640",
+        "id": "astnode100002642",
         "name": "exports.invertedThreshold",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6588,7 +6590,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002319",
+        "id": "astnode100002321",
         "name": "exports.invertGreyscale",
         "type": "AssignmentExpression",
         "value": "exports.invertGrayscale",
@@ -6699,7 +6701,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002375",
+        "id": "astnode100002377",
         "name": "exports.sepia",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6755,7 +6757,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002803",
+        "id": "astnode100002805",
         "name": "exports.sharpen",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6812,7 +6814,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002492",
+        "id": "astnode100002494",
         "name": "exports.silhouette",
         "type": "ArrowFunctionExpression",
         "paramnames": [
@@ -6865,7 +6867,7 @@
       "columnno": 0,
       "path": "/home/travis/build/kyranet/canvasConstructor/src",
       "code": {
-        "id": "astnode100002553",
+        "id": "astnode100002555",
         "name": "exports.threshold",
         "type": "ArrowFunctionExpression",
         "paramnames": [
