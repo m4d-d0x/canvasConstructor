@@ -180,8 +180,8 @@
         "comment": "/**\n\t * Register a new font (Canvas 2.x).\n\t * @param {string} path   The path for the font.\n\t * @param {string} family The font's family name.\n\t * @returns {CanvasConstructor}\n\t */",
         "meta": {
           "range": [
-            47746,
-            48001
+            47747,
+            48002
           ],
           "filename": "canvas.js",
           "lineno": 1308,
@@ -1328,8 +1328,8 @@
         "comment": "/**\n\t * Register a new font (Canvas 1.6.x).\n\t * @param {string} path   The path for the font.\n\t * @param {string} family The font's family name.\n\t * @returns {this}\n\t * @chainable\n\t */",
         "meta": {
           "range": [
-            45643,
-            45818
+            45644,
+            45819
           ],
           "filename": "canvas.js",
           "lineno": 1229,
@@ -1396,8 +1396,8 @@
         "comment": "/**\n\t * Adds an arc to the path which is centered at (x, y) position with radius r starting at startAngle and ending at\n\t * endAngle going in the given direction by anticlockwise (defaulting to clockwise).\n\t * @param {number} x The x coordinate of the arc's center.\n\t * @param {number} y The y coordinate of the arc's center.\n\t * @param {number} radius The arc's radius.\n\t * @param {number} [startAngle=0] The angle at which the arc starts, measured clockwise from the positive x axis and\n\t * expressed in radians.\n\t * @param {number} [endAngle=Math.PI * 2] The angle at which the arc ends, measured clockwise from the positive x axis and\n\t * expressed in radians.\n\t * @param {boolean} [anticlockwise=false] An optional Boolean which, if true, causes the arc to be drawn\n\t * counter-clockwise between the two angles. By default it is drawn clockwise.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arc\n\t */",
         "meta": {
           "range": [
-            34026,
-            34197
+            34027,
+            34198
           ],
           "filename": "canvas.js",
           "lineno": 912,
@@ -1513,8 +1513,8 @@
         "comment": "/**\n\t * Adds an arc to the path with the given control points and radius, connected to the previous point by a straight line.\n\t * @param {number} x1 The x axis of the coordinate for the first control point.\n\t * @param {number} y1 The y axis of the coordinate for the first control point.\n\t * @param {number} x2 The x axis of the coordinate for the second control point.\n\t * @param {number} y2 The y axis of the coordinate for the second control point.\n\t * @param {number} radius The arc's radius.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/arcTo\n\t */",
         "meta": {
           "range": [
-            34827,
-            34922
+            34828,
+            34923
           ],
           "filename": "canvas.js",
           "lineno": 928,
@@ -1663,8 +1663,8 @@
         "comment": "/**\n\t * Adds a cubic Bézier curve to the path. It requires three points. The first two points are control points and the\n\t * third one is the end point. The starting point is the last point in the current path, which can be changed using\n\t * moveTo() before creating the Bézier curve.\n\t * @param {number} cp1x The x axis of the coordinate for the first control point.\n\t * @param {number} cp1y The y axis of the coordinate for first control point.\n\t * @param {number} cp2x The x axis of the coordinate for the second control point.\n\t * @param {number} cp2y The y axis of the coordinate for the second control point.\n\t * @param {number} x The x axis of the coordinate for the end point.\n\t * @param {number} y The y axis of the coordinate for the end point.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/bezierCurveTo\n\t */",
         "meta": {
           "range": [
-            36648,
-            36771
+            36649,
+            36772
           ],
           "filename": "canvas.js",
           "lineno": 964,
@@ -1958,8 +1958,8 @@
         "comment": "/**\n\t * Clear a circle.\n\t * @param {number} x The position x in the center of the clip's circle.\n\t * @param {number} y The position y in the center of the clip's circle.\n\t * @param {number} radius The radius for the clip.\n\t * @param {number} [start=0] The degree in radians to start drawing the circle.\n\t * @param {number} [angle=Math.PI * 2] The degree in radians to finish drawing the circle, defaults to a full circle.\n\t * @returns {this}\n\t * @chainable\n\t */",
         "meta": {
           "range": [
-            42637,
-            42826
+            42638,
+            42827
           ],
           "filename": "canvas.js",
           "lineno": 1139,
@@ -2060,8 +2060,8 @@
         "comment": "/**\n\t * Clear an area.\n\t * @param {number} [x=0] The position x to start drawing the element.\n\t * @param {number} [y=0] The position y to start drawing the element.\n\t * @param {number} [width=this.width] The width of the element.\n\t * @param {number} [height=this.heigth] The heigth of the element.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/clearRect\n\t */",
         "meta": {
           "range": [
-            43261,
-            43395
+            43262,
+            43396
           ],
           "filename": "canvas.js",
           "lineno": 1155,
@@ -2476,8 +2476,8 @@
         "comment": "/**\n\t * Adds an ellipse to the path which is centered at (x, y) position with the radius radiusX and radiusY starting at\n\t * startAngle and ending at endAngle going in the given direction by anticlockwise (defaulting to clockwise).\n\t * @param {number} x The x axis of the coordinate for the ellipse's center.\n\t * @param {number} y The y axis of the coordinate for the ellipse's center.\n\t * @param {number} radiusX The ellipse's major-axis radius.\n\t * @param {number} radiusY The ellipse's minor-axis radius.\n\t * @param {number} rotation The rotation for this ellipse, expressed in radians.\n\t * @param {number} [startAngle=0] The starting point, measured from the x axis, from which it will be drawn, expressed\n\t * in radians.\n\t * @param {number} [endAngle=Math.PI * 2] The end ellipse's angle to which it will be drawn, expressed in radians.\n\t * @param {boolean} [anticlockwise=false] An optional Boolean which, if true, draws the ellipse anticlockwise\n\t * (counter-clockwise), otherwise in a clockwise direction.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/ellipse\n\t */",
         "meta": {
           "range": [
-            32827,
-            33044
+            32828,
+            33045
           ],
           "filename": "canvas.js",
           "lineno": 891,
@@ -2783,8 +2783,8 @@
         "comment": "/**\n\t * Creates a radial gradient given by the coordinates of the two circles represented by the parameters.\n\t * @param {number} x0 The x axis of the coordinate of the start circle.\n\t * @param {number} y0 The y axis of the coordinate of the start circle.\n\t * @param {number} r0 The radius of the start circle.\n\t * @param {number} x1 The x axis of the coordinate of the end circle.\n\t * @param {number} y1 The y axis of the coordinate of the end circle.\n\t * @param {number} r1 The radius of the end circle.\n\t * @param {GradientStep[]} [steps=[]] The steps.\n\t * @returns {CanvasGradient}\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient\n\t */",
         "meta": {
           "range": [
-            30476,
-            30737
+            30477,
+            30738
           ],
           "filename": "canvas.js",
           "lineno": 847,
@@ -3492,8 +3492,8 @@
         "comment": "/**\n\t * Reports whether or not the specified point is contained in the current path.\n\t * @param {number} x The X coordinate of the point to check.\n\t * @param {number} y The Y coordinate of the point to check.\n\t * @param {('nonzero'|'evenodd')} fillRule The algorithm by which to determine if a point is inside a path or\n\t * outside a path.\n\t * @returns {boolean}\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInPath\n\t */",
         "meta": {
           "range": [
-            44760,
-            44847
+            44761,
+            44848
           ],
           "filename": "canvas.js",
           "lineno": 1197,
@@ -3567,8 +3567,8 @@
         "comment": "/**\n\t * Reports whether or not the specified point is inside the area contained by the stroking of a path.\n\t * @param {number} x The X coordinate of the point to check.\n\t * @param {number} y The Y coordinate of the point to check.\n\t * @returns {boolean}\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/isPointInStroke\n\t */",
         "meta": {
           "range": [
-            45209,
-            45280
+            45210,
+            45281
           ],
           "filename": "canvas.js",
           "lineno": 1208,
@@ -3631,8 +3631,8 @@
         "comment": "/**\n\t * Connects the last point in the sub-path to the x, y coordinates with a straight line\n\t * @param {number} x The x axis of the coordinate for the end of the line.\n\t * @param {number} y The y axis of the coordinate for the end of the line.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineTo\n\t */",
         "meta": {
           "range": [
-            37150,
-            37211
+            37151,
+            37212
           ],
           "filename": "canvas.js",
           "lineno": 977,
@@ -3779,8 +3779,8 @@
         "comment": "/**\n\t * Moves the starting point of a new sub-path to the (x, y) coordinates.\n\t * @param {number} x The x axis of the point.\n\t * @param {number} y The y axis of the point.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/moveTo\n\t */",
         "meta": {
           "range": [
-            37517,
-            37578
+            37518,
+            37579
           ],
           "filename": "canvas.js",
           "lineno": 990,
@@ -3847,11 +3847,11 @@
         "$longname": "CanvasConstructor#moveTo"
       },
       {
-        "comment": "/**\n\t * Creates a gradient along the line given by the coordinates represented by the parameters.\n\t * The coordinates are global, the second point does not rely on the position of the first and vice versa. This\n\t * method is chainable and calls setColor after creating the gradient.\n\t * @param {number} x0 The x axis of the coordinate of the start point.\n\t * @param {number} y0 The y axis of the coordinate of the start point.\n\t * @param {number} x1 The x axis of the coordinate of the end point.\n\t * @param {number} y1 The y axis of the coordinate of the end point.\n\t * @param {GradientStep[]} [steps=[]] The steps.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient\n\t * @example\n\t * new Canvas(200, 200)\n\t *     .printLinearGradient(0, 0, 200, 50, [\n\t *         { position: 0, color: \"white\" },\n\t *         { position: 0.25, color: \"red\" },\n\t *         { position:0.5, color: \"blue\" }\n\t *     ])\n\t *     .addRect(10, 10, 200, 100)\n\t */",
+        "comment": "/**\n\t * Creates a gradient along the line given by the coordinates represented by the parameters.\n\t * The coordinates are global, the second point does not rely on the position of the first and vice versa. This\n\t * method is chainable and calls setColor after creating the gradient.\n\t * @param {number} x0 The x axis of the coordinate of the start point.\n\t * @param {number} y0 The y axis of the coordinate of the start point.\n\t * @param {number} x1 The x axis of the coordinate of the end point.\n\t * @param {number} y1 The y axis of the coordinate of the end point.\n\t * @param {GradientStep[]} [steps=[]] The steps.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient\n\t * @example\n\t * new Canvas(200, 200)\n\t *     .printLinearGradient(0, 0, 200, 50, [\n\t *         { position: 0, color: 'white' },\n\t *         { position: 0.25, color: 'red' },\n\t *         { position: 0.5, color: 'blue' }\n\t *     ])\n\t *     .addRect(10, 10, 200, 100)\n\t */",
         "meta": {
           "range": [
-            29628,
-            29778
+            29629,
+            29779
           ],
           "filename": "canvas.js",
           "lineno": 830,
@@ -3943,7 +3943,7 @@
           "https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createLinearGradient"
         ],
         "examples": [
-          "new Canvas(200, 200)\n    .printLinearGradient(0, 0, 200, 50, [\n        { position: 0, color: \"white\" },\n        { position: 0.25, color: \"red\" },\n        { position:0.5, color: \"blue\" }\n    ])\n    .addRect(10, 10, 200, 100)"
+          "new Canvas(200, 200)\n    .printLinearGradient(0, 0, 200, 50, [\n        { position: 0, color: 'white' },\n        { position: 0.25, color: 'red' },\n        { position: 0.5, color: 'blue' }\n    ])\n    .addRect(10, 10, 200, 100)"
         ],
         "name": "printLinearGradient",
         "longname": "CanvasConstructor#printLinearGradient",
@@ -3956,8 +3956,8 @@
         "comment": "/**\n\t * Creates a radial gradient given by the coordinates of the two circles represented by the parameters. This\n\t * method is chainable and calls setColor after creating the gradient.\n\t * @param {number} x0 The x axis of the coordinate of the start circle.\n\t * @param {number} y0 The y axis of the coordinate of the start circle.\n\t * @param {number} r0 The radius of the start circle.\n\t * @param {number} x1 The x axis of the coordinate of the end circle.\n\t * @param {number} y1 The y axis of the coordinate of the end circle.\n\t * @param {number} r1 The radius of the end circle.\n\t * @param {GradientStep[]} steps The steps.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/createRadialGradient\n\t */",
         "meta": {
           "range": [
-            31512,
-            31678
+            31513,
+            31679
           ],
           "filename": "canvas.js",
           "lineno": 869,
@@ -4077,8 +4077,8 @@
         "comment": "/**\n\t * Process data with this as the context\n\t * @param {Function} fn A callback function\n\t * @returns {this}\n\t */",
         "meta": {
           "range": [
-            45400,
-            45454
+            45401,
+            45455
           ],
           "filename": "canvas.js",
           "lineno": 1217,
@@ -4249,8 +4249,8 @@
         "comment": "/**\n\t * Adds a quadratic Bézier curve to the path. It requires two points. The first point is a control point and the\n\t * second one is the end point. The starting point is the last point in the current path, which can be changed using\n\t * moveTo() before creating the quadratic Bézier curve.\n\t * @param {number} cpx The x axis of the coordinate for the control point.\n\t * @param {number} cpy The y axis of the coordinate for the control point.\n\t * @param {number} x The x axis of the coordinate for the end point.\n\t * @param {number} y The y axis of the coordinate for the end point.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/quadraticCurveTo\n\t */",
         "meta": {
           "range": [
-            35651,
-            35752
+            35652,
+            35753
           ],
           "filename": "canvas.js",
           "lineno": 945,
@@ -4340,8 +4340,8 @@
         "comment": "/**\n\t * Reset the canvas' shadows.\n\t * @returns {this}\n\t * @chainable\n\t */",
         "meta": {
           "range": [
-            42086,
-            42171
+            42087,
+            42172
           ],
           "filename": "canvas.js",
           "lineno": 1123,
@@ -4662,8 +4662,8 @@
         "comment": "/**\n\t * Set anti-aliasing mode.\n\t * @param {('default'|'none'|'gray'|'subpixel')} antialias The antialias mode.\n\t * @returns {this}\n\t * @chainable\n\t */",
         "meta": {
           "range": [
-            40643,
-            40727
+            40644,
+            40728
           ],
           "filename": "canvas.js",
           "lineno": 1088,
@@ -4785,8 +4785,8 @@
         "comment": "/**\n\t * Modify the alpha value that is applied to shapes and images before they are drawn into the canvas.\n\t * @param {number} value The alpha value, from 0.0 (fully transparent) to 1.0 (fully opaque)\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalAlpha\n\t */",
         "meta": {
           "range": [
-            41930,
-            42007
+            41931,
+            42008
           ],
           "filename": "canvas.js",
           "lineno": 1113,
@@ -4846,8 +4846,8 @@
         "comment": "/**\n\t * Sets the type of compositing operation to apply when drawing new shapes, where type is a string identifying which\n\t * of the compositing or blending mode operations to use.\n\t * @param {('source-over'|'source-in'|'source-out'|'source-atop'|'destination-over'|'destination-in'|'destination-out'|'destination-atop'|'lighter'|'copy'|'xor'|'darken'|'lighten'|'color-dodge'|'color-burn'|'difference'|'exclusion'|'hue'|'saturation'|'color'|'luminosity'|'multiply'|'screen'|'overlay'|'hard-light'|'soft-light'|'hsl-hue'|'hsl-saturation'|'hsl-color'|'hsl-luminosity')} type The global composite operation mode.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/globalCompositeOperation\n\t */",
         "meta": {
           "range": [
-            41489,
-            41590
+            41490,
+            41591
           ],
           "filename": "canvas.js",
           "lineno": 1101,
@@ -5247,8 +5247,8 @@
         "comment": "/**\n\t * Sets the miter limit ratio in space units. When getting, it returns the current value (10.0 by default). When\n\t * setting, zero, negative, Infinity and NaN values are ignored; otherwise the current value is set to the new value.\n\t * @param {number} value A number specifying the miter limit ratio in space units. Zero, negative, Infinity and NaN\n\t * values are ignored.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/miterLimit\n\t */",
         "meta": {
           "range": [
-            39513,
-            39588
+            39514,
+            39589
           ],
           "filename": "canvas.js",
           "lineno": 1052,
@@ -5308,8 +5308,8 @@
         "comment": "/**\n\t * Change the pattern quality\n\t * @param {('fast'|'good'|'best'|'nearest'|'bilinear')} pattern The pattern quality.\n\t * @returns {this}\n\t * @chainable\n\t */",
         "meta": {
           "range": [
-            39753,
-            39840
+            39754,
+            39841
           ],
           "filename": "canvas.js",
           "lineno": 1063,
@@ -5370,8 +5370,8 @@
         "comment": "/**\n\t * Set the shadow's blur.\n\t * @param {number} radius The shadow's blur radius to set.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowBlur\n\t */",
         "meta": {
           "range": [
-            37807,
-            37884
+            37808,
+            37885
           ],
           "filename": "canvas.js",
           "lineno": 1002,
@@ -5431,8 +5431,8 @@
         "comment": "/**\n\t * Set the shadow's color.\n\t * @param {string} color A canvas' color resolvable to set as shadow's color.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowColor\n\t */",
         "meta": {
           "range": [
-            38134,
-            38211
+            38135,
+            38212
           ],
           "filename": "canvas.js",
           "lineno": 1014,
@@ -5492,8 +5492,8 @@
         "comment": "/**\n\t * Set the property that specifies the distance that the shadow will be offset in horizontal distance.\n\t * @param {number} value The value in pixels for the distance.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetX\n\t */",
         "meta": {
           "range": [
-            38524,
-            38605
+            38525,
+            38606
           ],
           "filename": "canvas.js",
           "lineno": 1026,
@@ -5553,8 +5553,8 @@
         "comment": "/**\n\t * Set the property that specifies the distance that the shadow will be offset in vertical distance.\n\t * @param {number} value The value in pixels for the distance.\n\t * @returns {this}\n\t * @chainable\n\t * @see https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/shadowOffsetY\n\t */",
         "meta": {
           "range": [
-            38916,
-            38997
+            38917,
+            38998
           ],
           "filename": "canvas.js",
           "lineno": 1038,
@@ -5808,8 +5808,8 @@
         "comment": "/**\n\t * Set the text drawing mode. Using glyph is much faster than path for drawing, and when using a PDF context will\n\t * embed the text natively, so will be selectable and lower filesize. The downside is that cairo does not have any\n\t * subpixel precision for glyph, so this will be noticeably lower quality for text positioning in cases such as\n\t * rotated text. Also, strokeText in glyph will act the same as fillText, except using the stroke style for the fill.\n\t * @param {('path'|'glyph')} mode The drawing mode.\n\t * @returns {this}\n\t * @chainable\n\t */",
         "meta": {
           "range": [
-            40404,
-            40487
+            40405,
+            40488
           ],
           "filename": "canvas.js",
           "lineno": 1077,
@@ -6100,8 +6100,8 @@
         "comment": "/**\n\t * Render the canvas into a buffer.\n\t * @param {any[]} args The render's options.\n\t * @returns {Buffer}\n\t */",
         "meta": {
           "range": [
-            45936,
-            45998
+            45937,
+            45999
           ],
           "filename": "canvas.js",
           "lineno": 1240,
@@ -6152,8 +6152,8 @@
         "comment": "/**\n\t * Render the canvas into a buffer using a Promise.\n\t * @returns {Promise<Buffer>}\n\t */",
         "meta": {
           "range": [
-            46095,
-            46248
+            46096,
+            46249
           ],
           "filename": "canvas.js",
           "lineno": 1248,
@@ -6191,8 +6191,8 @@
         "comment": "/**\n\t * Render the canvas into a Data URL.\n\t * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n\t * @param {any[]} args Extra arguments\n\t * @returns {string}\n\t * @see https://github.com/Automattic/node-canvas#canvastodataurl-sync-and-async\n\t */",
         "meta": {
           "range": [
-            46588,
-            46664
+            46589,
+            46665
           ],
           "filename": "canvas.js",
           "lineno": 1262,
@@ -6256,8 +6256,8 @@
         "comment": "/**\n\t * Render the canvas into a Data URL using a Promise.\n\t * @param {string} type the standard MIME type for the image format to return. If you do not specify this parameter, the default value is PNG.\n\t * @returns {Promise<string>}\n\t */",
         "meta": {
           "range": [
-            46907,
-            47072
+            46908,
+            47073
           ],
           "filename": "canvas.js",
           "lineno": 1271,
